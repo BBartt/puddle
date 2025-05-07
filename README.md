@@ -1,13 +1,33 @@
-# Puddle | Django
+# 🌊 Puddle | Django Marketplace (Forked)
 
-Learn how to build a simple online market place website using Django.
+A simple and functional online marketplace built using Django.
 
-This repository is a part of a video tutorial I created for FreeCodeCamp
+This repository is based on a video tutorial created for FreeCodeCamp.
 
-My channel:
-[CodeWithStein](https://www.youtube.com/channel/UCfVoYvY8BfTDeF63JQmQJvg/?sub_confirmation=1)
+---
 
-## Author
-This repository and video is created by CodeWithStein. Check out my website for more information.
+## 📺 Original Tutorial
 
-[Code With Stein - Website](https://codewithstein.com)
+Created by [CodeWithStein](https://www.youtube.com/channel/UCfVoYvY8BfTDeF63JQmQJvg/?sub_confirmation=1)  
+🔗 Website: [https://codewithstein.com](https://codewithstein.com)
+
+---
+
+## 🚀 How to Run This Project
+
+### 1. 📥 Clone the Repository
+
+```bash
+git clone git@github.com:BBartt/puddle.git
+cd puddle
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
